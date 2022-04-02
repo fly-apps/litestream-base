@@ -1,0 +1,5 @@
+
+addr: ":9090"
+
+dbs:
+  - path: ${LITESTREAM_DB_URL}

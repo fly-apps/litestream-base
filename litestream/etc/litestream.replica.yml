@@ -1,0 +1,7 @@
+addr: ":9091"
+
+dbs:
+  - path: ${LITESTREAM_DB_URL}
+    upstream:
+      path: ${LITESTREAM_DB_URL}
+      url: http://localhost:9090
